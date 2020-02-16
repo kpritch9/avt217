@@ -85,9 +85,9 @@ h1 {
 h2 {
 	font-size: 28px;
 	font-weight: bold;
-	margin-bottom: 90px;
-	color: #f4f1d0;
+	margin-bottom: 70px;
 	width: 460px;
+	color: #f4f1d0;
 }
 
 h3 {
@@ -108,8 +108,13 @@ footer {
 
 p {
 	font-size: 22px;
+	width: 610px;
 }
 
 .small {
 	font-size: 11px;
+}
+
+.accent-color {
+	color: #f4f1d0;
 }
