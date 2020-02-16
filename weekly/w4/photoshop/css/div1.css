@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #546382;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+}
+
+#wrapper {
+	width: 690px;
+	margin-left: 175px;
+	margin-right: 95px;
+}
+
+header, section, footer {
+	width: 690px;
+}
+
+#origins {
+	width: 910px;
+	margin-left: 80px;
+}
+
+h1 {
+	font-size: 38px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 22px;
+}
