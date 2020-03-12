@@ -169,11 +169,15 @@ footer {
 .social {
 	width: 30px;
 	height: 30px;
-	padding-top:5px;
+	margin-top:5px;	
 }
 
 .social:hover {
 	cursor:pointer;
+	background:#ED1B24;
+	height: 30px;
+	width:30px;
+	border-radius:50%;
 }
 
 #emailForm {
@@ -182,6 +186,10 @@ footer {
 
 #footerLinks a {
 	text-decoration: underline;
+}
+
+#footerLinks a:hover {
+	text-decoration: none;
 }
 
 #copyright {
