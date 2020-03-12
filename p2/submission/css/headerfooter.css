@@ -166,6 +166,16 @@ footer {
 	text-align: right;
 }
 
+.social {
+	width: 30px;
+	height: 30px;
+	padding-top:5px;
+}
+
+.social:hover {
+	cursor:pointer;
+}
+
 #emailForm {
 	padding-top:5px;
 }
