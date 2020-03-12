@@ -54,6 +54,10 @@ body {
 	color: white;
 }
 
+.pageWrapper {
+	margin: 20px 70px;
+}
+
 nav {
 	margin-bottom: 10px;
 	height: 100px;
@@ -66,7 +70,7 @@ img#logo {
 
 #navMenu {
 	float: right;
-	padding: 20px;
+	line-height: 100px;
 }
 
 a {
@@ -83,5 +87,36 @@ a.current {
 }
 
 .navLink {
-	padding: 50px;
+	padding-left: 100px;
+}
+
+footer {
+	margin-top: 50px;
+	height:100px;
+}
+
+.footerColumn {
+	float: left;
+	width: 33.3%;
+}
+
+.columnLeft {
+	text-align:left;
+}
+
+.columnMiddle {
+	text-align:center;
+}
+
+.columnRight {
+	text-align: right;
+}
+
+#footerLinks a {
+	text-decoration: underline;
+}
+
+#copyright {
+	font-size: 11.1px;
+	padding-top: 5px;
 }
