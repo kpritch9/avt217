@@ -46,3 +46,42 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/***** BEGIN CUSTOM CSS *****/
+
+body {
+	background-color: black;
+	color: white;
+}
+
+nav {
+	margin-bottom: 10px;
+	height: 100px;
+}
+
+img#logo {
+	height: 100px;
+	float:left;
+}
+
+#navMenu {
+	float: right;
+	padding: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.current {
+	color: #ED1B24;
+}
+
+.navLink {
+	padding: 50px;
+}
