@@ -49,18 +49,70 @@ table {
 
 /***** BEGIN CUSTOM CSS *****/
 
+
+/** GENERAL **/
 body {
 	background-color: black;
 	color: white;
 }
 
-.pageWrapper {
-	margin: 20px 70px;
+strong {
+	color: #ED1B24;
 }
+
+.pageWrapper {
+	padding: 20px 70px;
+}
+
+button {
+	background-color: black;
+	color: white;
+	border: 3px solid white;
+	padding: 5px 10px;
+}
+
+button:hover {
+		color: #ED1B24;
+		cursor: pointer;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: -1px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 10px;
+  
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+button:active {
+	border: 3px solid #ED1B24;
+}
+
+/** END GENERAL **/
+
 
 nav {
 	margin-bottom: 10px;
 	height: 100px;
+	border-bottom: 1px solid white;
 }
 
 img#logo {
@@ -92,7 +144,9 @@ a.current {
 
 footer {
 	margin-top: 50px;
+	padding-top:5px;
 	height:100px;
+	border-top: 1px solid white;
 }
 
 .footerColumn {
@@ -110,6 +164,10 @@ footer {
 
 .columnRight {
 	text-align: right;
+}
+
+#emailForm {
+	padding-top:5px;
 }
 
 #footerLinks a {
