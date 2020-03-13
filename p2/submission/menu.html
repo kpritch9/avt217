@@ -12,34 +12,98 @@
 		<nav>
 			<a href="index.html"><img id="logo" src="img/Logo.png" /></a>
 			<div id="navMenu">
-				<a href="" class="navLink">home</a>
+				<a href="index.html" class="navLink">home</a>
 				<a href="" class="navLink">about</a>
-				<a href="" class="navLink current">menu</a>
+				<a href="menu.html" class="navLink current">menu</a>
 				<a href="" class="navLink">loyalty</a>  
 			</div>
 		</nav>
 		<div class="contentWrapper">
 			<h1>Feelin Hungry?</h1>
 			<div id="mainContent">
-				<dl class="menuItem">
-					<dt class="menuItemTitle">Hamburger</dt>
-					<dd class="menuItemPrice">$5.29</dd>
-					<dd class="menuItemDesc">Bun Patty Bun.</dd>
-					<dt class="menuItemTitle">Cheeseburger</dt>
-					<dd class="menuItemPrice">$5.89</dd>
-					<dd class="menuItemDesc">Bun Patty Cheese Bun.</dd>
-					
-					<dt class="menuItemTitle">L'il Hamburger</dt>
-					<dd class="menuItemPrice">$3.70</dd>
-					<dd class="menuItemDesc">Bun Patty Bun.</dd>
-					<dd class="menuItemDesc little">But Little</dd>
-					<dt class="menuItemTitle">L'il Cheeseburger</dt>
-					<dd class="menuItemPrice">$4.39</dd>
-					<dd class="menuItemDesc">Bun Patty Cheese Bun.</dd>
-					<dd class="menuItemDesc little">But Little</dd>
-				</dl>
+				<div id="burgerMenu" class="menuSection">
+					<div class="column-2">
+						<dl class="menu align-right">
+							<dt class="menuItemTitle">Hamburger <span class="price">$5.29</span></dt>
+							<dd class="menuItemDesc">bun patty bun.</dd>
+							<dt class="menuItemTitle">Cheeseburger <span class="price">$5.89</span></dt>
+							<dd class="menuItemDesc">bun patty cheese bun.</dd>
+							<dt class="menuItemTitle">Bacon Burger <span class="price">$6.09</span></dt>
+							<dd class="menuItemDesc">bun patty bacon bun.</dd>
+							<dt class="menuItemTitle">Bacon Cheeseburger <span class="price">$6.59</span></dt>
+							<dd class="menuItemDesc">bun patty bacon cheese bun.</dd>
+						</dl>
+					</div>
+					<div class="column-2">
+						<dl class="menu align-left">
+							<dt class="menuItemTitle">L'il Hamburger <span class="price">$3.70</span></dt>
+							<dd class="menuItemDesc">bun patty bun.</dd>
+							<dd class="menuItemDesc little">but little</dd>
+							<dt class="menuItemTitle">L'il Cheeseburger <span class="price">$4.39</span></dt>
+							<dd class="menuItemDesc">bun patty cheese bun.</dd>
+							<dd class="menuItemDesc little">but little</dd>
+							<dt class="menuItemTitle">L'l Bacon Burger <span class="price">$6.09</span></dt>
+							<dd class="menuItemDesc">bun patty bacon bun.</dd>
+							<dd class="menuItemDesc little">but little</dd>
+							<dt class="menuItemTitle">L'il Bacon Cheeseburger <span class="price">$6.59</span></dt>
+							<dd class="menuItemDesc">bun patty bacon cheese bun.</dd>
+							<dd class="menuItemDesc little">but little</dd>
+						</dl>
+					</div>
+				</div>
+				<div id="dogMenu" class="menuSection">
+					<div class="column-2">
+						<dl class="menu align-right">
+							<dt class="menuItemTitle">Kosher Hot Dog <span class="price">$3.59</span></dt>
+							<dd class="menuItemDesc">bun dawg bun.</dd>
+							<dt class="menuItemTitle">Cheese Dog <span class="price">$4.19</span></dt>
+							<dd class="menuItemDesc">bun dawg cheese bun.</dd>
+						</dl>
+					</div>
+					<div class="column-2">
+						<dl class="menu align-left">
+							<dt class="menuItemTitle">Bacon Dog <span class="price">$4.49</span></dt>
+							<dd class="menuItemDesc">bun dawg bacon bun.</dd>
+							<dt class="menuItemTitle">Bacon Cheese Dog <span class="price">$4.99</span></dt>
+							<dd class="menuItemDesc">bun dawg bacon cheese bun.</dd>
+						</dl>
+					</div>
+				</div>
+				<div id="sandwichMenu" class="menuSection">
+					<div class="column-2">
+						<dl class="menu align-right">
+							<dt class="menuItemTitle">Veggie Sandwich <span class="price">$2.69</span></dt>
+							<dd class="menuItemDesc">bun veggies bun.</dd>
+							<dt class="menuItemTitle">Grilled Cheese <span class="price">$3.29</span></dt>
+							<dd class="menuItemDesc">bun cheese bun.</dd>
+						</dl>
+					</div>
+					<div class="column-2">
+						<dl class="menu align-left">
+							<dt class="menuItemTitle">Veggie Cheese Sandwich <span class="price">$3.29</span></dt>
+							<dd class="menuItemDesc">bun veggies cheese bun.</dd>
+							<dt class="menuItemTitle"></dt>
+							<dd class="menuItemDesc note">note: veggie sandwiches do not contain veggie burger patties.</dd>
+						</dl>
+					</div>
+				</div>
+				<div id="friesMenu" class="menuSection">
+					<div class="column-2">
+						<dl class="menu align-right">
+							<dt class="menuItemTitle">Sweet Potato Fries <span class="price">$2.25</span></dt>
+							<dd class="menuItemDesc">sweet potatoes salt.</dd>
+						</dl>
+					</div>
+					<div class="column-2">
+						<dl class="menu align-left">
+							<dt class="menuItemTitle">Skin on Fries <span class="price">$2.00</span></dt>
+							<dd class="menuItemDesc">russet potatoes salt.</dd>
+						</dl>
+					</div>
+				</div>
+				</div>
 				<div id="toppings">
-					Complimentary toppings: 
+					<span class="bold">Complimentary toppings: </span>
 					<br />
 					Lettuce, Tomato, Grilled Onions, Raw Red Onions, Pickes, Charred Jalapenos, Cognac & Sherry Sauteed Mushrooms, Roasted Garlic, Fiery Piranha Sauce, BBQ Sauce, Mayo.
 				</div>
@@ -47,7 +111,7 @@
 			</div>
 		</div>
 		<footer>
-			<div class="footerColumn columnLeft">
+			<div class="column-3 align-left">
 				<div id="emailClub">
 					Join Our Email Club: 
 					<br />
@@ -57,7 +121,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="footerColumn columnMiddle">
+			<div class="column-3 align-center">
 				<div id="contact"><strong>Ketchup</strong> With Us:</div>
 				<div>
 					<img class="social" src="img/social_facebook.png" />
@@ -66,7 +130,7 @@
 					<img class="social" src="img/social_pintrest.png" />
 				</div>
 			</div>
-			<div class="footerColumn columnRight">
+			<div class="column-3 align-right">
 				<div id="footerNav">
 					<div id="footerLinks">
 						<a href="">franchise</a>&nbsp;&nbsp;|&nbsp;&nbsp;

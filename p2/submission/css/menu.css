@@ -1,3 +1,45 @@
+
+
+#mainContent:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contentWrapper {	
+	text-align: center;
+}
+
+.menuSection {
+	margin-bottom: 30px;
+}
+
 .little {
-	
+	font-size:10px;
+}
+
+.note {
+	font-size: 10px; 
+	font-family: Arial;
+	padding-bottom: 25px;
+}
+
+.menuItemTitle {
+	color:#ED1B24;
+	font-weight: bold;
+	padding-top:10px;
+}
+
+.menuItemDesc, .menuItemTitle {
+	margin: 0 25px;
+}
+
+
+.price {
+	color: white;
+}
+
+#toppings {
+	padding: 50px 0 20px 0;
+	margin: 0 400px;
 }

@@ -59,9 +59,14 @@ body {
 
 strong {
 	color: #ED1B24;
+	font-weight: bold;
 }
 
-.pageWrapper {
+.bold {
+	font-weight: bold;
+}
+
+.contentWrapper {
 	padding: 20px 70px;
 }
 
@@ -70,6 +75,8 @@ button {
 	color: white;
 	border: 3px solid white;
 	padding: 5px 10px;
+	font-family: Copperplate, Copperplate Gothic Light, Fantasy;
+	font-weight: bold;
 }
 
 button:hover {
@@ -107,11 +114,38 @@ button:active {
 	border: 3px solid #ED1B24;
 }
 
+h1 {
+	font-size: 40px;
+}
+
+.align-left {
+	text-align:left;
+}
+
+.align-right {
+	text-align:right;
+}
+
+.align-center {
+	text-align:center;
+}
+
+.column-3 {
+	float: left;
+	width: 33.3%;
+}
+
+.column-2 {
+	float: left;
+	width: 50%;
+}
+
 /** END GENERAL **/
 
 
 nav {
-	margin-bottom: 10px;
+	margin-bottom: 50px;
+	padding: 0 20px;
 	height: 100px;
 	border-bottom: 1px solid white;
 }
@@ -147,26 +181,9 @@ a.current {
 
 footer {
 	margin-top: 50px;
-	padding-top:20px;
+	padding:20px ;
 	height:100px;
 	border-top: 1px solid white;
-}
-
-.footerColumn {
-	float: left;
-	width: 33.3%;
-}
-
-.columnLeft {
-	text-align:left;
-}
-
-.columnMiddle {
-	text-align:center;
-}
-
-.columnRight {
-	text-align: right;
 }
 
 .social {
