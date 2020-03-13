@@ -1,17 +1,49 @@
+h2 {
+	font-size:35px;
+	font-weight:bold;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size:25px;
+	font-weight:bold;
+	margin-top:10px;
+}
+
 .contentWrapper {
-	height:500px;
+	height:275px;
 	margin: auto;
+}
+
+#advertisement>a>img {
+	max-width:100%;
 }
 
 #info {
-	margin: auto;
-	width:80%
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.circleContainer {
+	display:table-cell;
 }
 
 .circle {
+	display:inline-block;
 	border-radius: 50%;
 	background-color: white;
 	width: 300px;
 	height: 300px;
 	margin: 10px 30px;
+}
+
+#ray {
+	max-width: 100px;
+}
+
+#location {
+	max-width: 50px;
+	margin-top: 15px;
 }
