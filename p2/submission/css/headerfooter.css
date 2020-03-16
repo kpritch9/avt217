@@ -48,13 +48,13 @@ table {
 }
 
 /***** BEGIN CUSTOM CSS *****/
-
+@import url('https://fonts.googleapis.com/css?family=Balthazar&display=swap');
 
 /** GENERAL **/
 body {
 	background-color: black;
 	color: white;
-	font-family: Copperplate, Copperplate Gothic Light, Fantasy;
+	font-family: Copperplate, Copperplate Gothic Light, 'Balthazar', Serif;
 }
 
 strong {
