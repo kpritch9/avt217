@@ -79,7 +79,14 @@ main img {
 	margin: 0 1em 1em 0;
 }
 
+img[src*="bread"] {
+	-webkit-shape-outside: ellipse(130px 95px at 50% 50%);
+	shape-outside: ellipse(130px 95px at 50% 50%);
+}
+
 img[src*="muffin"] {
+	-webkit-shape-outside: circle(110px);
+	shape-outside: polygon(0px 0px, 197px 0px, 241px 31px, 241px 68px, 226px 82px, 219px 131px, 250px 142px, 250px 158px, 0px 158px);
 	margin-left: 50px;
 }
 
