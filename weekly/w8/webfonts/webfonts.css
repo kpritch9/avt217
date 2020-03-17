@@ -2,18 +2,29 @@
 /* CSS Document */
 
 @font-face {
+    font-family: 'drawveticaminimedium';
+    src: 
+         url('drawveticamini/DrawveticaMini-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
     font-family: 'dobkinplain';
-    src: url('dobkin_plain/DobkinPlain-webfont.eot');
-    src: url('dobkin_plain/DobkinPlain-webfont.eot?#iefix') format('embedded-opentype'),
-         url('dobkin_plain/DobkinPlain-webfont.woff2') format('woff2'),
-         url('dobkin_plain/DobkinPlain-webfont.woff') format('woff'),
-         url('dobkin_plain/DobkinPlain-webfont.ttf') format('truetype'),
-         url('dobkin_plain/DobkinPlain-webfont.svg#dobkinplain') format('svg');
+    src: 
+         url('dobkin_plain/DobkinPlain-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
+
+
+
 h1 {
 	font-family: 'dobkinplain';
+}
+
+h2 {
+	font-family: 'drawveticaminimedium';
 }
