@@ -26,16 +26,14 @@ h3 {
 	align-items: center; 
 }
 
-.circleContainer {
-	display:table-cell;
-}
-
 .circle {
 	display:inline-block;
 	border-radius: 50%;
 	background-color: white;
-	width: 300px;
-	height: 300px;
+	min-width: 300px;
+	min-height: 300px;
+	max-width: 300px;
+	max-height: 300px;
 	margin: 10px 30px;
 }
 
