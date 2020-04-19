@@ -135,6 +135,12 @@ h4 {
 
 /*** FOOTER ***/
 footer {
-	height: 50px;
+	height: 100px;
 	background-color: #5B9892;
+}
+
+footer #footer-logo {
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
 }
