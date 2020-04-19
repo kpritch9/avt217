@@ -125,8 +125,12 @@ h4 {
 }
 
 /*** TEXT ***/
-p {
+p,span {
 	font-family: raleway;
+}
+
+p {	
+	padding-top:10px;
 }
 
 .text-center {
@@ -136,6 +140,30 @@ p {
 .little {
 	font-size: 8px;
 }
+
+/*** LINKS ***/
+a {
+	font-family: mrsheffield-pro;
+	color: #C8A960;
+	font-size: 50px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #83A9A7;
+	font-weight: bold;
+}
+
+/*** BUTTONS ***/
+button {
+	font-family: raleway;
+	color: #83A9A7;    
+	border: 1px solid #83A9A7;
+    background-color: white;
+	padding: 5px 15px;
+	border-radius: 6px;
+}
+
 
 /*** HEADER ***/
 
