@@ -75,6 +75,11 @@ div.center {
 	margin: auto;
 }
 
+.column-2 {
+	float:left;
+	width: 50%;
+}
+
 /*** COLORS ***/
 .gold {
 	color: #C8A960;
@@ -95,6 +100,7 @@ h1 {
 	color: #C8A960;
 	font-size: 90px;
 	text-align:center;
+	padding-top:40px;
 }
 
 h2 {
@@ -119,8 +125,16 @@ h4 {
 }
 
 /*** TEXT ***/
+p {
+	font-family: raleway;
+}
+
 .text-center {
 	text-align: center;
+}
+
+.little {
+	font-size: 8px;
 }
 
 /*** HEADER ***/
@@ -142,5 +156,24 @@ footer {
 footer #footer-logo {
 	width: 100px;
 	height: 100px;
-	margin-left: 50px;
+	padding-left: 50px;
+	vertical-align:middle;
+	float:left;
+}
+
+footer p {
+	float:left;
+	padding-top:42px;
+}
+
+.social-icon {
+	width:30px;
+	margin-top:35px;
+}
+
+.social {
+	background-color: #5B9892;
+	text-align: right;
+	padding-right: 50px;
+	vertical-align: middle;
 }
