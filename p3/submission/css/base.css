@@ -51,12 +51,29 @@ table {
 
 
 
+
+
+
+/*** ADOBE FONTS ***/
+/* Requires <link rel="stylesheet" href="https://use.typekit.net/par7ehp.css"> */
+
+@font-face {
+	font-family: mrsheffield-pro,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: raleway,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 /*** POSITIONING ***/
 div.center {
 	width:50%;
 	margin: auto;
 }
-
 
 /*** COLORS ***/
 .gold {
@@ -86,7 +103,38 @@ h2 {
 	font-size: 35px;
 }
 
+h3 {
+	font-family: raleway;
+	font-weight: bold;
+	color: #000;
+	font-size: 40px;
+}
+
+h4 {
+	font-family: raleway;
+	font-weight: bold;
+	font-style: italic;
+	color: #000;
+	font-size: 24px;
+}
+
 /*** TEXT ***/
 .text-center {
 	text-align: center;
+}
+
+/*** HEADER ***/
+
+
+
+/*** CONTENT ***/
+.contentWrapper { 
+	margin: 50px;
+}
+
+
+/*** FOOTER ***/
+footer {
+	height: 50px;
+	background-color: #5B9892;
 }
