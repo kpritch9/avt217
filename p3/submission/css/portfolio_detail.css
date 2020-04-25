@@ -1,20 +1,21 @@
 /*** PORTFOLIO ***/
 
-h1 {
+.lightbox > img {
+	max-height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 	margin-bottom: 50px;
 }
 
-.headerBar {
-	font-family: mrsheffield-pro;
-	color: #E3D688;
-	font-size: 50px;
-	text-align:center;
-	padding-top:40px;
-	background-color: #5B9892;
-	height: 70px;
-	margin-bottom: 50px;
+.prev {
+	float: left;
 }
 
-.grid {
-	margin-bottom: 100px;
+.next {
+	float: right;
+}
+
+.contentWrapper {
+	margin-bottom: 100px; 
 }
