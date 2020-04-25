@@ -1,23 +1,26 @@
 <!DOCTYPE html> 
 <html> 
 <head> 
-  <meta charset="utf-8">
-  <title>Katie Pritchard - Portfolio</title> 
-  <link rel="stylesheet" type="text/css" href="css/base.css">
-  <link rel="stylesheet" type="text/css" href="css/portfolio_detail.css">
-  <link rel="stylesheet" href="https://use.typekit.net/par7ehp.css">
-  
-    <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />  
-    <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
-  
-  
-    <script type="text/javascript" src="nivo-slider/jquery-1.9.0.min.js"></script>
-    <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.pack.js"></script>
-    <script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider();
-    });
-    </script>
+	<meta charset="utf-8">
+	<title>Katie Pritchard - Portfolio</title> 
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/portfolio_detail.css">
+	<link rel="stylesheet" href="https://use.typekit.net/par7ehp.css">
+    <!-- Slick Image slider -->
+	<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="scripts/slick-1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="scripts/slick-1.8.1/slick/slick-theme.css"/>
+	<script type="text/javascript" src="scripts/slick-1.8.1/slick/slick.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $('.lightbox').slick({
+				dots: true,
+				speed: 150,
+				centerMode: true
+		  });
+		});
+	</script>
 </head> 
 
 <body> 
@@ -29,16 +32,12 @@
 		<div class="contentWrapper">
 			<div id="portfolio">
 				<h1>Portfolio</h1>
-				
-				<div class="slider-wrapper theme-light">
-					<div id="slider" class="nivoSlider">
-						<img src="resources/graphicdesign/magic8/magic8_1.png" title="Magic 8 Ball poster 1 of 3"></img>
-						<img src="resources/graphicdesign/magic8/magic8_2.png" title="Magic 8 Ball poster 2 of 3"></img>
-						<img src="resources/graphicdesign/magic8/magic8_3.png" title="Magic 8 Ball poster 3 of 3"></img>
+				<div class="sliderContainer">
+					<div id="slider" class="lightbox">
+						<div class="slick-slide"><img src="resources/graphicdesign/magic8/magic8_1.png" title="Magic 8 Ball poster 1 of 3"></img></div>
+						<div class="slick-slide"><img src="resources/graphicdesign/magic8/magic8_2.png" title="Magic 8 Ball poster 2 of 3"></img></div>
+						<div class="slick-slide"><img src="resources/graphicdesign/magic8/magic8_3.png" title="Magic 8 Ball poster 3 of 3"></img></div>
 					</div>
-				</div>
-				
-				<div class="lightbox">
 				</div>
 				<h3>DC SIR Adoption Process</h3>
 				<h4>Digital Print</h4>

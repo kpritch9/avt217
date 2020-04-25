@@ -8,8 +8,26 @@
 	margin-bottom: 50px;
 }
 
-.slider-wrapper {
-	height: 600px;
+.sliderContainer {
+  margin: 0 auto;
+  padding: 40px;
+  width: 80%;
+  color: #333;
+  background: #419be0;
+}
+
+
+.slick-slide {
+  text-align: center;
+  margin: 0 auto;
+  color: #419be0;
+  background: white;
+}
+
+#slider img {
+  height: calc(50vh - 100px);
+  width: auto;
+  margin: 0 auto; /* it centers any block level element */
 }
 
 .prev {
