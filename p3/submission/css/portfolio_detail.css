@@ -1,0 +1,20 @@
+/*** PORTFOLIO ***/
+
+h1 {
+	margin-bottom: 50px;
+}
+
+.headerBar {
+	font-family: mrsheffield-pro;
+	color: #E3D688;
+	font-size: 50px;
+	text-align:center;
+	padding-top:40px;
+	background-color: #5B9892;
+	height: 70px;
+	margin-bottom: 50px;
+}
+
+.grid {
+	margin-bottom: 100px;
+}
