@@ -4,8 +4,20 @@
   <meta charset="utf-8">
   <title>Katie Pritchard - Portfolio</title> 
   <link rel="stylesheet" type="text/css" href="css/base.css">
-  <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+  <link rel="stylesheet" type="text/css" href="css/portfolio_detail.css">
   <link rel="stylesheet" href="https://use.typekit.net/par7ehp.css">
+  
+    <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />  
+    <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+  
+  
+    <script type="text/javascript" src="nivo-slider/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
 </head> 
 
 <body> 
@@ -17,50 +29,26 @@
 		<div class="contentWrapper">
 			<div id="portfolio">
 				<h1>Portfolio</h1>
-				<div class="headerBar">Graphic Design</div>
-				<div class="grid">
-					<a href="portfolio_detail_magic8.html">
-						<img class="thumbnail" src="resources/thumbnails/tones_rayshellburger.png"></img>
-					</a>
-					<a href="portfolio_detail_magic8.html">
-						<img class="thumbnail" src="resources/thumbnails/tones_magic81.png"></img>
-					</a>
-					<a href="portfolio_detail_magic8.html">
-						<img class="thumbnail" src="resources/thumbnails/tones_bonappetit.png"></img>
-					</a>
-					<a href="portfolio_detail_magic8.html">
-						<img class="thumbnail" src="resources/thumbnails/tones_alice.png"></img>
-					</a>
-					<a href="portfolio_detail_shiba.html">
-						<img class="thumbnail" src="resources/thumbnails/tones_shiba.png"></img>
-					</a>
-					<a href="portfolio_detail_magic8.html">
-						<img class="thumbnail" src="resources/thumbnails/tones_travelmagazine.png"></img>
-					</a>
+				
+				<div class="slider-wrapper theme-light">
+					<div id="slider" class="nivoSlider">
+						<img src="resources/graphicdesign/magic8/magic8_1.png" title="Magic 8 Ball poster 1 of 3"></img>
+						<img src="resources/graphicdesign/magic8/magic8_2.png" title="Magic 8 Ball poster 2 of 3"></img>
+						<img src="resources/graphicdesign/magic8/magic8_3.png" title="Magic 8 Ball poster 3 of 3"></img>
+					</div>
 				</div>
+				
+				<div class="lightbox">
 				</div>
-				<div class="headerBar">Photography</div>
-				<div class="grid">
-					<a href="portfolio_detail_magic8.html">
-						<img class="thumbnail" src="resources/thumbnails/tones_plantLocation.png"></img>
-					</a>
-					<a href="portfolio_detail_magic8.html">
-						<img class="thumbnail" src="resources/thumbnails/tones_persona.png"></img>
-					</a>
-					<a href="portfolio_detail_magic8.html">
-						<img class="thumbnail" src="resources/thumbnails/tones_food.png"></img>
-					</a>
-					<a href="portfolio_detail_magic8.html">
-						<img class="thumbnail" src="resources/thumbnails/tones_words.png"></img>
-					</a>
-					<a href="portfolio_detail_magic8.html">
-						<img class="thumbnail" src="resources/thumbnails/tones_ink.png"></img>
-					</a>
-					<a href="portfolio_detail_magic8.html">
-						<img class="thumbnail" src="resources/thumbnails/tones_nature.png"></img>
-					</a>
-				</div>
+				<h3>DC SIR Adoption Process</h3>
+				<h4>Digital Print</h4>
+				<p>
+					Exploring typography to create an infographic, I chose an organization close to my heart.  Having adopted my very own black and tan Kenichi from DC Shiba Inu Rescue, 
+					I wanted to express the adoption process at a quick glance for others attempting to adopt.
+				</p>
 			</div>
+			<a class="prev" href="">...previous</a>
+			<a class="next" href="">next...</a>
 		</div>
 		<footer>
 			<div class="column-2">

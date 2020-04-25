@@ -1,11 +1,15 @@
 /*** PORTFOLIO ***/
 
-.lightbox > img {
+#slider > img {
 	max-height: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 	margin-bottom: 50px;
+}
+
+.slider-wrapper {
+	height: 600px;
 }
 
 .prev {
