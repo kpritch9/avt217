@@ -7,9 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="css/portfolio_detail.css">
 	<link rel="stylesheet" href="https://use.typekit.net/par7ehp.css">
     <!-- Slick Image slider -->
-	<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="scripts/slick-1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="scripts/slick-1.8.1/slick/slick-theme.css"/>
+	<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
 	<script type="text/javascript" src="scripts/slick-1.8.1/slick/slick.min.js"></script>
 	
 	<script type="text/javascript">
@@ -17,7 +17,9 @@
 		  $('.lightbox').slick({
 				dots: true,
 				speed: 150,
-				centerMode: true
+				centerMode: true,
+				prevArrow:"<img class='a-left control-c prev slick-prev' style='height:25px;' src='resources/slider/left-arrow.svg'>",
+				nextArrow:"<img class='a-right control-c next slick-next' style='height:25px;' src='resources/slider/right-arrow.svg'>",
 		  });
 		});
 	</script>

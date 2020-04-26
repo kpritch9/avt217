@@ -1,5 +1,24 @@
 /*** PORTFOLIO ***/
 
+
+.prev {
+	float: left;
+}
+
+.next {
+	float: right;
+}
+
+.contentWrapper {
+	margin-bottom: 100px; 
+}
+
+/** SLICK SLIDER **/
+.slick-arrow,
+.slick-next {
+	height:25px;
+}
+
 #slider > img {
 	max-height: 600px;
     display: block;
@@ -13,31 +32,17 @@
   padding: 40px;
   width: 80%;
   color: #333;
-  background: #419be0;
 }
 
 
 .slick-slide {
   text-align: center;
   margin: 0 auto;
-  color: #419be0;
   background: white;
 }
 
 #slider img {
-  height: calc(50vh - 100px);
+  height: calc(100vh - 500px);
   width: auto;
   margin: 0 auto; /* it centers any block level element */
-}
-
-.prev {
-	float: left;
-}
-
-.next {
-	float: right;
-}
-
-.contentWrapper {
-	margin-bottom: 100px; 
 }
