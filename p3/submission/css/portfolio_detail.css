@@ -13,6 +13,10 @@
 	margin-bottom: 100px; 
 }
 
+#slider {	
+	margin-bottom: 50px;
+}
+
 /** SLICK SLIDER **/
 .slick-arrow,
 .slick-next {
@@ -24,7 +28,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-	margin-bottom: 50px;
 }
 
 .sliderContainer {
@@ -42,7 +45,8 @@
 }
 
 #slider img {
-  height: calc(100vh - 500px);
+  height: calc(100vh - 100px);
+  /*max-height: 600px;*/
   width: auto;
   margin: 0 auto; /* it centers any block level element */
 }
