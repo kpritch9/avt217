@@ -13,12 +13,17 @@
 	height: 100%;
 }
 
+.section {
+	margin-top: 100px;
+}
+
 /*** PORTFOLIO ***/
 
 #fullPortfolio {
 	margin-top: 50px;
 	display: block;
 	text-align: center;
+	font-size: 60px;
 }
 
 /*** CONTACT FORM ***/
