@@ -45,7 +45,7 @@
 }
 
 #slider img {
-  height: calc(100vh - 100px);
+  height: 80vh;
   /*max-height: 600px;*/
   width: auto;
   margin: 0 auto; /* it centers any block level element */
