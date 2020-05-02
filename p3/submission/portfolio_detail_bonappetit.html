@@ -6,6 +6,13 @@
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="stylesheet" type="text/css" href="css/portfolio_detail.css">
 	<link rel="stylesheet" href="https://use.typekit.net/par7ehp.css">
+	
+	<!-- Navigation -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="scripts/jquery/jquery-current.js"></script>
+	<script src="scripts/anime.min.js"></script>
+	<script src="scripts/main.js"></script>
+	
     <!-- Slick Image slider -->
 	<link rel="stylesheet" type="text/css" href="scripts/slick-1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="scripts/slick-1.8.1/slick/slick-theme.css"/>
@@ -29,9 +36,23 @@
 
 <body> 
 	<div class="pageWrapper">
-		<nav>
-			<div class="logo"></div>
-			<div id="menu"></div>
+		<nav>		
+			<a href="index.html"><img id="header-logo" src="resources/logo/KP_Logo.png"/></a>
+			
+			<div id="menu">
+				<div id="links" style="display:none;">
+					<a href="portfolio.html">Portfolio</a>
+					<a href="index.html#about">About</a>
+					<a href="https://tipsychocochip.com">Blog</a>
+					<a href="index.html#contact">Contact</a>
+				</div>  
+				<a id="bars" href="javascript:void(0);" class="icon">
+					<i class="fa fa-bars"></i>
+				</a>
+				<a id="cancel" href="javascript:void(0);" class="icon" style="display:none;">
+					<i class="fa fa-times"></i>
+				</a>
+			</div>
 		</nav>
 		<div class="contentWrapper">
 			<div id="portfolio">
