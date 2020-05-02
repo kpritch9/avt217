@@ -243,6 +243,10 @@ footer p {
 /*** PORTFOLIO ***/
 
 @media screen and (min-width: 1000px) {
+	#links a {
+		padding-right: 40px;
+	}
+	
 	.grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
