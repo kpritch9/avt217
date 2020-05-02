@@ -175,6 +175,32 @@ button {
 
 /*** HEADER ***/
 
+nav {
+	height: 35px;
+}
+
+nav #header-logo {
+	width: 100px;
+	height: 100px;
+	padding-left: 50px;
+	vertical-align:middle;
+	float:left;
+}
+
+#menu {
+	float:right;
+	margin: 30px 50px 0 0;
+}
+
+#menu a {	
+	font-family: raleway;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#links {
+	display: inline-block;
+}
 
 
 /*** CONTENT ***/
@@ -189,7 +215,7 @@ footer {
 	background-color: #5B9892;
 }
 
-footer #footer-logo {
+footer #footer-logo{
 	width: 100px;
 	height: 100px;
 	padding-left: 50px;

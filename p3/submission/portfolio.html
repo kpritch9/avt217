@@ -6,13 +6,41 @@
   <link rel="stylesheet" type="text/css" href="css/base.css">
   <link rel="stylesheet" type="text/css" href="css/portfolio.css">
   <link rel="stylesheet" href="https://use.typekit.net/par7ehp.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="scripts/jquery/jquery-current.js"></script>
+  <script src="scripts/anime.min.js"></script>
+  
+  <script>
+	$(document).ready(function () {		
+		$('#bars').on('click', function () {
+			if($('#links:visible').length){			
+				$('#links').hide();
+			}
+			else {
+				$('#links').show();			
+			}
+		});
+	});
+	
+  </script>
 </head> 
 
 <body> 
 	<div class="pageWrapper">
-		<nav>
-			<div class="logo"></div>
-			<div id="menu"></div>
+		<nav>		
+			<a href="index.html"><img id="header-logo" src="resources/logo/KP_Logo.png"/></a>
+			
+			<div id="menu">
+				<div id="links" style="">
+					<a href="portfolio.html">Portfolio</a>
+					<a href="index.html#about">About</a>
+					<a href="https://tipsychocochip.com">Blog</a>
+					<a href="index.html#contact">Contact</a>
+				</div>  
+				<a id="bars" href="javascript:void(0);" class="icon")">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
 		</nav>
 		<div class="contentWrapper">
 			<div id="portfolio">
@@ -78,5 +106,20 @@
 				</div>
 		</footer>
 	</div>
+	
+	
+  
+  <script>
+	$(document).ready(function () {
+	});
+	
+	function toggleNav() {
+		console.log("blah");
+		/*if($('#links:visible').length)
+			$('#links').hide("slide", { direction: "right" }, 1000);
+		else
+			$('#links').show("slide", { direction: "right" }, 1000);     */
+	}
+  </script>
 </body> 
 </html> 
