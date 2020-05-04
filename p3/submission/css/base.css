@@ -248,6 +248,16 @@ nav #header-logo {
 	margin: 100px 50px 50px 50px;
 }
 
+.thumbnail {
+	opacity: 1;	
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.thumbnail:hover {
+	opacity: .75;
+}
+
 
 /*** FOOTER ***/
 footer {
