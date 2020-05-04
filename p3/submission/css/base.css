@@ -51,9 +51,6 @@ table {
 
 
 
-
-
-
 /*** ADOBE FONTS ***/
 /* Requires <link rel="stylesheet" href="https://use.typekit.net/par7ehp.css"> */
 
@@ -248,7 +245,7 @@ nav #header-logo {
 
 /*** CONTENT ***/
 .contentWrapper { 
-	margin: 50px;
+	margin: 100px 50px 50px 50px;
 }
 
 
