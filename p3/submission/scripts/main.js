@@ -5,23 +5,45 @@
 	
 	
 	function toggleNav() {	
-			if($('#links:visible').length){			
-				$('#links').hide();
-				$('#cancel').hide();
-				$('#bars').show();
+			if($('#links').hasClass('toggle-on')){
+				$('#links').removeClass('toggle-on');
+				leadOutLinks();
 				$('.hamburger-line-1').css('transform', 'translateY(0px) rotate(0deg)');
 				$('.hamburger-line-2').css('transform', 'scale(1)');
 				$('.hamburger-line-3').css('transform', 'translateY(0px) rotate(0deg)');
 			}
 			else {
-				$('#links').show();			
-				$('#cancel').show();
-				$('#bars').hide();
+				
+				$('#links').addClass('toggle-on');
+				leadInLinks();
 				$('.hamburger-line-1').css('transform', 'translateY(8px) rotate(135deg)');
 				$('.hamburger-line-2').css('transform', 'scale(0)');
 				$('.hamburger-line-3').css('transform', 'translateY(-8px) rotate(-135deg)');
 				
 			}
 	}
+
+	function leadInLinks() {
+		console.log("lead in");
+		anime({
+			targets: '#links .nav-link',
+			translateY: 100,
+			delay: function(el, i, l) {
+				return i * 100;
+			}
+						
+		});
+	}
 	
+	function leadOutLinks() {
+		console.log("lead in");
+		anime({
+			targets: '#links .nav-link',
+			translateY: -100,
+			delay: function(el, i, l) {
+				return i * 100;
+			}
+						
+		});
+	}
 	

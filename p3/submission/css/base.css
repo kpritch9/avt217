@@ -201,6 +201,11 @@ nav #header-logo {
 #links {
 	display: inline-block;
 	margin-top:3px;
+	transform: translateY(-100px);
+}
+
+.nav-link {
+	display: inline-block;
 }
 
 .nav-icon {
@@ -209,18 +214,6 @@ nav #header-logo {
   display: inline-block;  
   margin-top: -3px;
 }
-
-/*.nav-icon:after, 
-.nav-icon:before, 
-.nav-icon div {
-  background-color: #000;
-  border-radius: 3px;
-  content: '';
-  display: block;
-  height: 5px;
-  margin: 7px 0;
-  transition: all .2s ease-in-out;
-}*/
 
 .hamburger-line-1,
 .hamburger-line-2,
@@ -238,17 +231,6 @@ nav #header-logo {
 	background-color: #83A9A7;
 }	
 
-/*.nav-icon:hover:before {
-  transform: translateY(12px) rotate(135deg);
-}
-
-.nav-icon:hover:after {
-  transform: translateY(-12px) rotate(-135deg);
-}
-
-.nav-icon:hover div {
-  transform: scale(0);
-}*/
 
 /*** CONTENT ***/
 .contentWrapper { 
