@@ -1,8 +1,22 @@
 	$(document).ready(function () {		
 		$('.nav-icon').on('click', toggleNav);
 		$('#cancel').on('click', toggleNav);
+		
+
 	});
 	
+	    $(window).scroll(function() {    
+        
+		var header = $("#navWrapper");
+		var scroll = $(window).scrollTop();
+		var winHeight = $(window).height();
+    
+        if (scroll >= (winHeight - 200)) {
+            header.addClass('navShadow');
+        } else {
+            header.removeClass('navShadow');
+        }
+    });
 	
 	function toggleNav() {	
 			if($('#links').hasClass('toggle-on')){
