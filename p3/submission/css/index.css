@@ -1,16 +1,16 @@
 /*** LANDING LOGO ***/
-/*#kp_logo {
-	position: relative;
+#kp_logo {
+	position: absolute;
+	left: 0;
+	right: 0;
 	width: 100%;
-	height: 100%;
-	top:0;
-	left:0;
-	
-}*/
+	height: 70%;
+}
 
 #welcome {
 	width: 100%;
-	height: 100%;
+	height: calc(100vh - 300px);
+	padding-top: 100px;
 }
 
 .section {
