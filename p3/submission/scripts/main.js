@@ -5,7 +5,7 @@
 
 	});
 	
-	    $(window).scroll(function() {    
+	    /*$(window).scroll(function() {    
         
 		var header = $("#navWrapper");
 		var scroll = $(window).scrollTop();
@@ -16,7 +16,7 @@
         } else {
             header.removeClass('navShadow');
         }
-    });
+    });*/
 	
 	function toggleNav() {	
 			if($('#links').hasClass('toggle-on')){
