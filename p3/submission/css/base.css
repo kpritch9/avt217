@@ -200,8 +200,55 @@ nav #header-logo {
 
 #links {
 	display: inline-block;
+	margin-top:3px;
 }
 
+.nav-icon {
+  width: 30px;
+  float: right;
+  display: inline-block;  
+  margin-top: -3px;
+}
+
+/*.nav-icon:after, 
+.nav-icon:before, 
+.nav-icon div {
+  background-color: #000;
+  border-radius: 3px;
+  content: '';
+  display: block;
+  height: 5px;
+  margin: 7px 0;
+  transition: all .2s ease-in-out;
+}*/
+
+.hamburger-line-1,
+.hamburger-line-2,
+.hamburger-line-3 {	
+  background-color: #C8A960;
+  border-radius: 3px;
+  content: '';
+  display: block;
+  height: 3px;
+  margin: 5px 0;
+  transition: all .2s ease-in-out;
+}
+
+.nav-icon:hover .hamburger-line {
+	background-color: #83A9A7;
+}	
+
+/*.nav-icon:hover:before {
+  transform: translateY(12px) rotate(135deg);
+}
+
+.nav-icon:hover:after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+
+.nav-icon:hover div {
+  transform: scale(0);
+}*/
 
 /*** CONTENT ***/
 .contentWrapper { 
